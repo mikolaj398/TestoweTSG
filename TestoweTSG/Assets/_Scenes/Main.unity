@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 68572528}
   - component: {fileID: 68572527}
   m_Layer: 5
-  m_Name: RodCard (2)
+  m_Name: RodCard3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1928,14 +1928,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 27
+    m_MaxSize: 35
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0141AMACZ FAL"
+  m_Text: ATLAS
 --- !u!222 &172287222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3367,7 +3367,7 @@ GameObject:
   - component: {fileID: 333819220}
   - component: {fileID: 333819219}
   m_Layer: 5
-  m_Name: RodCard (1)
+  m_Name: RodCard2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3807,7 +3807,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3971a465a8953d64bb56fc9ec0ebc554, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a766f6d272e33bb40aaa67516d522e02, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4164,7 +4164,7 @@ GameObject:
   - component: {fileID: 489490847}
   - component: {fileID: 489490846}
   m_Layer: 5
-  m_Name: RodCard (3)
+  m_Name: RodCard4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5793,7 +5793,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.08e-43, y: 3.513e-42, z: 0, w: 6.911e-42}
+  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 1.22e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6459,14 +6459,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 27
+    m_MaxSize: 35
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0141AMACZ FAL"
+  m_Text: PIEKNA
 --- !u!222 &812400922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6744,14 +6744,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 27
+    m_MaxSize: 35
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0141AMACZ FAL"
+  m_Text: FLINTA
 --- !u!222 &827649133
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8188,7 +8188,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3971a465a8953d64bb56fc9ec0ebc554, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9bed274e0e162974ca7c4b7952e74267, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8675,7 +8675,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9715cd2e4952e3a4d9e6e26ddc2c17fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4575589897a80af4f991be4405f13b96, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10103,7 +10103,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9715cd2e4952e3a4d9e6e26ddc2c17fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2dc02a75ca895a4bbd66a1357ae9b23, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12935,7 +12935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1541088388}
   m_Layer: 5
-  m_Name: SpinningRods (1)
+  m_Name: FlyRods
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13947,14 +13947,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 27
+    m_MaxSize: 35
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0141AMACZ FAL"
+  m_Text: "WA\u017BKA"
 --- !u!222 &1698518871
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14820,7 +14820,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SPININGOWE
+  m_Text: MUCHOWE
 --- !u!222 &1767952104
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15335,7 +15335,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9715cd2e4952e3a4d9e6e26ddc2c17fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a90703023fd7fd4e9a20cf273186e43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16238,7 +16238,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9715cd2e4952e3a4d9e6e26ddc2c17fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 086951eb64b2da24086a50f2f12bcad7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
