@@ -1072,6 +1072,7 @@ GameObject:
   - component: {fileID: 99775837}
   - component: {fileID: 99775836}
   - component: {fileID: 99775838}
+  - component: {fileID: 99775839}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -1180,6 +1181,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &99775839
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99775834}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &105049380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,7 +1232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.23700002, y: 0.34974483}
   m_AnchorMax: {x: 0.83400005, y: 0.8754788}
-  m_AnchoredPosition: {x: -0.50359344, y: -8.57}
+  m_AnchoredPosition: {x: -0.50358963, y: -8.57}
   m_SizeDelta: {x: 5.75, y: -6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105049382
@@ -1760,6 +1777,7 @@ GameObject:
   - component: {fileID: 149936317}
   - component: {fileID: 149936316}
   - component: {fileID: 149936315}
+  - component: {fileID: 149936318}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1868,6 +1886,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149936313}
   m_CullTransparentMesh: 0
+--- !u!111 &149936318
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149936313}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &161471055
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,6 +3305,7 @@ GameObject:
   - component: {fileID: 262582707}
   - component: {fileID: 262582706}
   - component: {fileID: 262582708}
+  - component: {fileID: 262582709}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -3379,6 +3414,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &262582709
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262582704}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &272583883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3427,6 +3478,7 @@ GameObject:
   - component: {fileID: 273967927}
   - component: {fileID: 273967926}
   - component: {fileID: 273967928}
+  - component: {fileID: 273967929}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -3535,6 +3587,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &273967929
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273967924}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &280868321
 GameObject:
   m_ObjectHideFlags: 0
@@ -4465,6 +4533,7 @@ GameObject:
   - component: {fileID: 359343359}
   - component: {fileID: 359343358}
   - component: {fileID: 359343360}
+  - component: {fileID: 359343361}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -4573,6 +4642,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &359343361
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359343356}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &363507512
 GameObject:
   m_ObjectHideFlags: 0
@@ -6768,6 +6853,7 @@ GameObject:
   - component: {fileID: 679524068}
   - component: {fileID: 679524067}
   - component: {fileID: 679524069}
+  - component: {fileID: 679524070}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -6876,6 +6962,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &679524070
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679524065}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &684612567
 GameObject:
   m_ObjectHideFlags: 0
@@ -7058,6 +7160,7 @@ GameObject:
   - component: {fileID: 694995371}
   - component: {fileID: 694995370}
   - component: {fileID: 694995372}
+  - component: {fileID: 694995373}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -7166,6 +7269,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &694995373
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694995368}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &696239375
 GameObject:
   m_ObjectHideFlags: 0
@@ -11089,6 +11208,7 @@ GameObject:
   - component: {fileID: 1028464576}
   - component: {fileID: 1028464575}
   - component: {fileID: 1028464577}
+  - component: {fileID: 1028464578}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -11197,6 +11317,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &1028464578
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028464573}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1034749669
 GameObject:
   m_ObjectHideFlags: 0
@@ -11383,6 +11519,7 @@ GameObject:
   - component: {fileID: 1052639884}
   - component: {fileID: 1052639883}
   - component: {fileID: 1052639885}
+  - component: {fileID: 1052639886}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -11491,6 +11628,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &1052639886
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052639881}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1053530147
 GameObject:
   m_ObjectHideFlags: 0
@@ -13785,6 +13938,7 @@ GameObject:
   - component: {fileID: 1339769814}
   - component: {fileID: 1339769813}
   - component: {fileID: 1339769815}
+  - component: {fileID: 1339769816}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -13893,6 +14047,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &1339769816
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339769811}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1342343935
 GameObject:
   m_ObjectHideFlags: 0
@@ -16440,13 +16610,14 @@ GameObject:
   - component: {fileID: 1545539053}
   - component: {fileID: 1545539055}
   - component: {fileID: 1545539054}
+  - component: {fileID: 1545539056}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1545539053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16503,6 +16674,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545539052}
   m_CullTransparentMesh: 0
+--- !u!111 &1545539056
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545539052}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 575ca2625e649bc48993a66f4e283b7d, type: 2}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1549512614
 GameObject:
   m_ObjectHideFlags: 0
@@ -16751,13 +16940,14 @@ GameObject:
   - component: {fileID: 1598206621}
   - component: {fileID: 1598206623}
   - component: {fileID: 1598206622}
+  - component: {fileID: 1598206624}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1598206621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16814,6 +17004,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598206620}
   m_CullTransparentMesh: 0
+--- !u!111 &1598206624
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598206620}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1615916305
 GameObject:
   m_ObjectHideFlags: 0
@@ -21919,6 +22125,7 @@ GameObject:
   - component: {fileID: 2133986783}
   - component: {fileID: 2133986782}
   - component: {fileID: 2133986781}
+  - component: {fileID: 2133986784}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -22027,6 +22234,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133986779}
   m_CullTransparentMesh: 0
+--- !u!111 &2133986784
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133986779}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2138420224
 GameObject:
   m_ObjectHideFlags: 0
@@ -22113,6 +22336,7 @@ GameObject:
   - component: {fileID: 2138802958}
   - component: {fileID: 2138802957}
   - component: {fileID: 2138802959}
+  - component: {fileID: 2138802960}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -22221,6 +22445,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!111 &2138802960
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138802955}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 446ec16a9a6effd4fb146e606d4e8406, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!224 &29184026279958538
 RectTransform:
   m_ObjectHideFlags: 0
