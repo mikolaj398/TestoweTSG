@@ -6,38 +6,45 @@ public class RodCardPressed : MonoBehaviour
     private Button button;
     private bool choosen;
     private Transform context;
-    private GameObject selectedText;
+    private GameObject selectedInfo;
     void Start()
     {
         button = GetComponent<Button>();
         button.onClick.AddListener(ButtonPressed);
-        rod.tag = "Rod";
         choosen = false;
         FindGameObjects();
     }
     void FindGameObjects()
     {
         context = GameObject.FindGameObjectWithTag("Context").transform;
-        selectedText = gameObject.transform.parent.GetChild(transform.GetSiblingIndex() - 1).gameObject;
+        selectedInfo = gameObject.transform.parent.GetChild(transform.GetSiblingIndex() - 1).gameObject;
     }
     public void ButtonPressed()
     {
         if (choosen) return;
         ChangeRod();
-        selectedText.SetActive(true);
+        selectedInfo.SetActive(true);
         choosen = true;
+        DeactivatePreviousButton();
     }
     void ChangeRod()
     {
         Transform oldRod = GameObject.FindGameObjectWithTag("Rod").gameObject.transform;
-        rod = Instantiate(rod, oldRod.position, oldRod.rotation).gameObject;
-        rod.transform.SetParent(context);
-        rod.transform.localScale = new Vector3(300, 300, 300);
-        rod.name = "RodModel";
+        GameObject newRod = Instantiate(rod, oldRod.position, oldRod.rotation).gameObject;
+        newRod.transform.SetParent(context);
+        newRod.transform.localScale = new Vector3(300, 300, 300);
+        newRod.name = "RodModel";
+        newRod.tag = "Rod";
         Destroy(oldRod.gameObject);
     }
     public void ChangeChoose()
     {
         choosen = false;
+        selectedInfo.SetActive(false);
+    }
+    void DeactivatePreviousButton()
+    {
+        GameObject previousSelectedParent = GameObject.FindGameObjectWithTag("SelectedInfo").transform.parent.gameObject;
+        previousSelectedParent.transform.GetChild(previousSelectedParent.transform.childCount - 1).GetComponent<RodCardPressed>().ChangeChoose();
     }
 }

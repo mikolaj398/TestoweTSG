@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Rod
   - Context
-  - SelectedText
   - ProgressBar
+  - SelectedInfo
   layers:
   - Default
   - TransparentFX

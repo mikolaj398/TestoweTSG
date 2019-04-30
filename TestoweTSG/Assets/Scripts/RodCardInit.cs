@@ -32,7 +32,6 @@ public class RodCardInit : MonoBehaviour
     {
         Text progressText = progressBar.GetComponentInChildren<Text>();
         progressText.text = gainedPoints+"/"+nextLevelPoints;
-        Debug.Log(progressText.gameObject.name);
     }
     void CheckUpgradeArrow()
     {
