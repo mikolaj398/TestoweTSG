@@ -24,8 +24,8 @@ public class RodCardPressed : MonoBehaviour
         if (choosen) return;
         ChangeRod();
         selectedInfo.SetActive(true);
-        choosen = true;
         DeactivatePreviousButton();
+        choosen = true;
     }
     void ChangeRod()
     {

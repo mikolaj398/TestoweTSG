@@ -8,6 +8,9 @@ TagManager:
   - Context
   - ProgressBar
   - SelectedInfo
+  - Spinning
+  - Fly
+  - Casting
   layers:
   - Default
   - TransparentFX
