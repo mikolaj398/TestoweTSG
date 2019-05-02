@@ -7,6 +7,7 @@ public class RodCardPressed : MonoBehaviour
     private bool choosen;
     private Transform context;
     private GameObject selectedInfo;
+
     void Start()
     {
         button = GetComponent<Button>();
@@ -20,12 +21,13 @@ public class RodCardPressed : MonoBehaviour
         selectedInfo = gameObject.transform.parent.GetChild(transform.GetSiblingIndex() - 1).gameObject;
     }
     public void ButtonPressed()
-    {
+    { 
         if (choosen) return;
         ChangeRod();
         selectedInfo.SetActive(true);
         DeactivatePreviousButton();
         choosen = true;
+        Debug.Log("lool");
     }
     void ChangeRod()
     {
