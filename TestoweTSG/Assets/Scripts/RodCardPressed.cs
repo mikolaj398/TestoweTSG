@@ -20,6 +20,9 @@ public class RodCardPressed : MonoBehaviour
         context = GameObject.FindGameObjectWithTag("Context").transform;
         selectedInfo = gameObject.transform.parent.GetChild(transform.GetSiblingIndex() - 1).gameObject;
     }
+    /// <summary>
+    /// What to do when card with rod is pressed
+    /// </summary>
     public void ButtonPressed()
     { 
         if (choosen) return;
@@ -27,7 +30,11 @@ public class RodCardPressed : MonoBehaviour
         selectedInfo.SetActive(true);
         DeactivatePreviousButton();
         choosen = true;
+
     }
+    /// <summary>
+    /// Function finds finds old rod model and changes it with rod assigned to the card
+    /// </summary>
     void ChangeRod()
     {
         Transform oldRod = GameObject.FindGameObjectWithTag("Rod").gameObject.transform;
@@ -38,14 +45,20 @@ public class RodCardPressed : MonoBehaviour
         newRod.tag = "Rod";
         Destroy(oldRod.gameObject);
     }
-    public void ChangeChoose()
+    /// <summary>
+    /// Deactivates the "Choosen" sign on card
+    /// </summary>
+    public void DeactivateRod()
     {
         choosen = false;
         selectedInfo.SetActive(false);
     }
+    /// <summary>
+    /// Function that calls "DeactivateRod" on previous button
+    /// </summary>
     void DeactivatePreviousButton()
     {
         GameObject previousSelectedParent = GameObject.FindGameObjectWithTag("SelectedInfo").transform.parent.gameObject;
-        previousSelectedParent.transform.GetChild(previousSelectedParent.transform.childCount - 1).GetComponent<RodCardPressed>().ChangeChoose();
+        previousSelectedParent.transform.GetChild(previousSelectedParent.transform.childCount - 1).GetComponent<RodCardPressed>().DeactivateRod();
     }
 }

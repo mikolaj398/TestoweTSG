@@ -16,7 +16,6 @@ public class FadeIn : MonoBehaviour
         fadePanel = GetComponent<Image>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Time.timeSinceLevelLoad <= fadeInTime)

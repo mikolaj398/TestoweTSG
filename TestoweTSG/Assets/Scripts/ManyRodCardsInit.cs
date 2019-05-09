@@ -20,7 +20,7 @@ public class ManyRodCardsInit : MonoBehaviour
     int icon;
     int background;
     int model;
-    int name;
+    new int name;
 
     void Start()
     {
@@ -34,7 +34,9 @@ public class ManyRodCardsInit : MonoBehaviour
         SpawnCastingRods();
         InitFirstRod();
     }
-    
+    /// <summary>
+    /// Function that chooses random icon, background, model and name for generated rodcard
+    /// </summary>
     void RadnomValues()
     {
         icon = Random.Range(0, rodsIcons.Length);
@@ -42,17 +44,27 @@ public class ManyRodCardsInit : MonoBehaviour
         model = Random.Range(0, models.Length);
         name = Random.Range(0, names.Length);
     }
-    void InitRodCard()
+    /// <summary>
+    /// Initialize rod card with choosen valuses
+    /// </summary>
+    void BuildRodCard()
     {
         backgroundColorsPrefabs[background].transform.GetChild(1).GetComponentInChildren<Text>().text = names[name];
         backgroundColorsPrefabs[background].transform.GetChild(2).transform.GetChild(0).GetComponent<Image>().sprite = rodsIcons[icon];
         backgroundColorsPrefabs[background].transform.GetChild(5).GetComponent<RodCardPressed>().rod = models[model];
     }
+    /// <summary>
+    /// Resizes given panel for scroll to work correctly 
+    /// </summary>
+    /// <param name="rt"></param>
     void ResizePanels(RectTransform rt)
     {
         rt.sizeDelta += new Vector2(0, spinningRodsObject.transform.GetChild(1).transform.GetComponent<GridLayoutGroup>().cellSize.y);
         transform.parent.GetComponent<RectTransform>().sizeDelta += new Vector2(0, spinningRodsObject.transform.GetChild(1).transform.GetComponent<GridLayoutGroup>().cellSize.y);
     }
+    /// <summary>
+    /// Spawns the number of spinning rods given in inspector
+    /// </summary>
     void SpawnSpinningRods()
     {
         RectTransform rtSpinning = spinningRodsObject.GetComponent<RectTransform>();
@@ -60,14 +72,16 @@ public class ManyRodCardsInit : MonoBehaviour
         {
 
             RadnomValues();
-            InitRodCard();
+            BuildRodCard();
             GameObject rodCard = Instantiate(backgroundColorsPrefabs[background], spinningRodsObject.transform.GetChild(1).transform, false);
             if (i == 0) rodCard.transform.GetChild(4).gameObject.SetActive(true);
 
             if (i % 4 == 0)  ResizePanels(rtSpinning);    
         }
     }
-
+    /// <summary>
+    /// Spawns the number of fly rods given in inspector
+    /// </summary>
     void SpawnFlyRods()
     {
         RectTransform reFlying = flyRodsObject.GetComponent<RectTransform>();
@@ -75,11 +89,14 @@ public class ManyRodCardsInit : MonoBehaviour
         {
 
             RadnomValues();
-            InitRodCard();
+            BuildRodCard();
             GameObject rodCard = Instantiate(backgroundColorsPrefabs[background], flyRodsObject.transform.GetChild(1).transform, false);
             if (i % 4 == 0) ResizePanels(reFlying);
         }
     }
+    /// <summary>
+    /// Spawns the number of casting rods given in inspector
+    /// </summary>
     void SpawnCastingRods()
     {
         RectTransform rtCasting = castingRodsObject.GetComponent<RectTransform>();
@@ -87,12 +104,14 @@ public class ManyRodCardsInit : MonoBehaviour
         {
 
             RadnomValues();
-            InitRodCard();
+            BuildRodCard();
             GameObject rodCard = Instantiate(backgroundColorsPrefabs[background], castingRodsObject.transform.GetChild(1).transform, false);
             if (i % 4 == 0) ResizePanels(rtCasting);
         }
     }
-
+    /// <summary>
+    /// Initialize first rod setting its name, tag and scale
+    /// </summary>
     void InitFirstRod()
     {
         Transform oldRod = GameObject.FindGameObjectWithTag("Rod").gameObject.transform;
