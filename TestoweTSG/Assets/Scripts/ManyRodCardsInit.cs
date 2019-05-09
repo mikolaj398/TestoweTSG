@@ -42,14 +42,13 @@ public class ManyRodCardsInit : MonoBehaviour
         icon = Random.Range(0, rodsIcons.Length);
         background = Random.Range(0, backgroundColorsPrefabs.Length);
         model = Random.Range(0, models.Length);
-        name = Random.Range(0, names.Length);
     }
     /// <summary>
-    /// Initialize rod card with choosen valuses
+    /// Initialize rod card with choosen valuses, name of every rod have the same index as its icon
     /// </summary>
     void BuildRodCard()
     {
-        backgroundColorsPrefabs[background].transform.GetChild(1).GetComponentInChildren<Text>().text = names[name];
+        backgroundColorsPrefabs[background].transform.GetChild(1).GetComponentInChildren<Text>().text = names[icon];
         backgroundColorsPrefabs[background].transform.GetChild(2).transform.GetChild(0).GetComponent<Image>().sprite = rodsIcons[icon];
         backgroundColorsPrefabs[background].transform.GetChild(5).GetComponent<RodCardPressed>().rod = models[model];
     }

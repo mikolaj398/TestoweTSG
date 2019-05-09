@@ -914,7 +914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &245441832
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5001,9 +5001,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1513b2e32641b429c41bcc086346c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinningRods: 14
-  flyRods: 10
-  castingRods: 20
+  spinningRods: 33
+  flyRods: 33
+  castingRods: 33
   rodsIcons:
   - {fileID: 21300000, guid: 9715cd2e4952e3a4d9e6e26ddc2c17fb, type: 3}
   - {fileID: 21300000, guid: 3463d5092f9309348b20590917acd407, type: 3}
@@ -5015,6 +5015,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4575589897a80af4f991be4405f13b96, type: 3}
   - {fileID: 21300000, guid: 60f8fadea4f97a8409a1d0bda298d555, type: 3}
   - {fileID: 21300000, guid: 782d641f13e476e45ac46c6eb03a4b94, type: 3}
+  - {fileID: 21300000, guid: 39b7e3fc248ada7458c048336488acb7, type: 3}
+  - {fileID: 21300000, guid: f981fc3a33c1f3a419e1a09e2808eca4, type: 3}
   backgroundColorsPrefabs:
   - {fileID: 359482690667013506, guid: 1217b8b5d0417fa4e8119195f476db68, type: 3}
   - {fileID: 2690700157817162726, guid: beb8be778baa6714ea211477e925bd5f, type: 3}
@@ -5023,8 +5025,18 @@ MonoBehaviour:
   - {fileID: 8887194842765443934, guid: 05058354e77351d4286c37d0a9efb392, type: 3}
   - {fileID: 1534814454696211391, guid: 52fcc20f589966044ba5c2b49bb0bb6b, type: 3}
   names:
-  - lol
-  - vk
+  - KABAN
+  - HOT ROD
+  - TYTAN
+  - IMADLO
+  - ATLAS
+  - PIEKNA
+  - WAZKA
+  - FLINTA
+  - PRYZMAT
+  - LUNETA
+  - LAMACZ FAL
+  - JEDEN
 --- !u!1 &1351908505
 GameObject:
   m_ObjectHideFlags: 0
@@ -5312,7 +5324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.48100004}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.2999878, y: -560.03}
+  m_AnchoredPosition: {x: -1.2999268, y: -560.03}
   m_SizeDelta: {x: -42.1, y: 1028.1}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &1439052716
@@ -6078,7 +6090,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
